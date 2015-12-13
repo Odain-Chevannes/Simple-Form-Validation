@@ -25,7 +25,7 @@ Simple html form validation
  	}
  </style>
  <?php
-	//no tricky stuff with Cross Site Scripting exploits
+	//basic Cross Site Scripting prevention
 	function test_input($data) {
 	   $data = trim($data);
 	   $data = stripslashes($data);
