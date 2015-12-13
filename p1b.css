@@ -1,0 +1,30 @@
+/*
+*@Author Odain Chevannes 620065484
+*@Date 11-23-2015
+*/
+#sexyTable{
+	font-family: "Tahoma";
+	font-size: 13px;
+	border-collapse: collapse;
+}
+#sexyTable td{
+	padding-top: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 10px
+}
+.left-column{
+	text-align: left;
+}
+.right-column{
+	text-align: center;
+}
+tr.total td{
+	border-top: 2px solid black;
+	font-weight: bold;
+}
+#naughtyDiv{
+	border: 10px solid #d0d0ff;
+	padding: 20px;
+	display: inline-block;
+}
